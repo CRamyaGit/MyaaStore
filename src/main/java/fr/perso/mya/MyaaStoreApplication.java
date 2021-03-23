@@ -8,6 +8,7 @@ public class MyaaStoreApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyaaStoreApplication.class, args);
+		System.out.println("Spring Application is running");
 	}
 
 }
