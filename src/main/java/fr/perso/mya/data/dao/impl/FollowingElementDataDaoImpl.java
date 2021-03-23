@@ -1,4 +1,4 @@
-package fr.afcepf.al32.groupe2.dao.impl;
+package fr.perso.mya.data.dao.impl;
 
 import java.util.List;
 
@@ -8,16 +8,16 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
-import fr.afcepf.al32.groupe2.dao.FollowingElementDataDao;
-import fr.afcepf.al32.groupe2.entity.Client;
-import fr.afcepf.al32.groupe2.entity.FollowingElementData;
-import fr.afcepf.al32.groupe2.entity.ISubscriber;
-import fr.afcepf.al32.groupe2.util.SubscriberType;
+import fr.perso.mya.data.dao.FollowingElementDataDao;
+import fr.perso.mya.data.entity.Client;
+import fr.perso.mya.data.entity.FollowingElementData;
+import fr.perso.mya.data.entity.ISubscriber;
+import fr.perso.mya.data.util.SubscriberType;
 
 @Transactional
 @Repository
 public class FollowingElementDataDaoImpl implements FollowingElementDataDao{
-	
+
 	@PersistenceContext
 	EntityManager em;
 

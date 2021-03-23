@@ -1,4 +1,4 @@
-package fr.afcepf.al32.groupe2.dao.impl;
+package fr.perso.mya.data.dao.impl;
 
 import java.util.List;
 
@@ -9,10 +9,9 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Component;
 
-import fr.afcepf.al32.groupe2.dao.ClientDao;
-import fr.afcepf.al32.groupe2.entity.Client;
-import fr.afcepf.al32.groupe2.entity.IFollowableElement;
-import fr.afcepf.al32.groupe2.entity.SalesUnit;
+import fr.perso.mya.data.dao.ClientDao;
+import fr.perso.mya.data.entity.Client;
+import fr.perso.mya.data.entity.IFollowableElement;
 
 @Component
 @Transactional

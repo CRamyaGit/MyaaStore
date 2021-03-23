@@ -1,4 +1,4 @@
-package fr.afcepf.al32.groupe2.entity;
+package fr.perso.mya.data.entity;
 
 import java.util.Date;
 import java.util.Map;
@@ -17,7 +17,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-import fr.afcepf.al32.groupe2.util.FollowableElementType;
+import fr.perso.mya.data.util.FollowableElementType;
 
 @Entity
 @Table(name = "reference_product")

@@ -2,7 +2,7 @@ package fr.perso.mya.data.dao;
 
 import java.util.List;
 
-import fr.afcepf.al32.groupe2.entity.BaseProduct;
+import fr.perso.mya.data.entity.BaseProduct;
 
 public interface IBaseProductDao {
 	BaseProduct findOne(Long idUnite);

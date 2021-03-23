@@ -1,4 +1,4 @@
-package fr.afcepf.al32.groupe2.entity;
+package fr.perso.mya.data.entity;
 
 import java.util.Map;
 
@@ -22,7 +22,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import fr.afcepf.al32.groupe2.util.FollowableElementType;
+import fr.perso.mya.data.util.FollowableElementType;
 
 @Entity
 @Table(name="shop")

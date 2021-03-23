@@ -1,4 +1,4 @@
-package fr.afcepf.al32.groupe2.entity;
+package fr.perso.mya.data.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

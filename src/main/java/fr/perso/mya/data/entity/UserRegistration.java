@@ -1,4 +1,4 @@
-package fr.afcepf.al32.groupe2.entity;
+package fr.perso.mya.data.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -6,7 +6,7 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Table;
 
-import fr.afcepf.al32.groupe2.util.UserDeregistrationMotive;
+import fr.perso.mya.data.util.UserDeregistrationMotive;
 
 @Entity
 @Table(name="user_registration")
